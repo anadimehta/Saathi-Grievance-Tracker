@@ -5,10 +5,8 @@ import Dashboard from "./components/dashboard";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-    <div className="flex"><Sidebar/>
+    <Navbar/>
     <Dashboard />
-    </div>
     </div>
   );
 }
