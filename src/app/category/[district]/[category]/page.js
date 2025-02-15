@@ -68,7 +68,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Navbar } from "@/app/components/navbar";
+import  Navbar  from "@/app/components/navbar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 // Sample grievance data

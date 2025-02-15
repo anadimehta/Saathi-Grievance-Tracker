@@ -6,7 +6,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recha
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { Navbar } from "@/app/components/navbar";
+import Navbar from "@/app/components/navbar";
 
 const categories = [
   { name: "Water Supply", value: 25 },

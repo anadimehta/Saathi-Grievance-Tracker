@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Menu, X } from "lucide-react"; 
 
-export function Navbar() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter(); 
 
